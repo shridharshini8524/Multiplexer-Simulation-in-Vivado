@@ -1,4 +1,4 @@
-                                                        SIMULATION AND IMPLEMENTATION OF LOGIC GATES
+                                                    SIMULATION AND IMPLEMENTATION OF LOGIC GATES
 
 AIM:
 
@@ -8,7 +8,7 @@ APPARATUS REQUIRED:
 
 Vivado 2023.1
 
-Procedure
+PROCEDURE:
 
 
 1. Launch Vivado
@@ -64,7 +64,7 @@ Truth Table
 
 ![image](https://github.com/user-attachments/assets/c850506c-3f6e-4d6b-8574-939a914b2a5f)
 
-Verilog Code
+Verilog Code:
 
 4:1 MUX Gate-Level Implementation
 // mux4_to_1_gate.v
@@ -100,7 +100,7 @@ OUTPUT:
 
 ![WhatsApp Image 2024-11-21 at 14 11 06_da525909](https://github.com/user-attachments/assets/68dfd460-2886-4f66-92bd-ef9dc349f4eb)
 
-4:1 MUX Data Flow Implementation
+4:1 MUX Data Flow Implementation:
 
 // mux4_to_1_dataflow.v
 ~~~
@@ -125,7 +125,7 @@ OUTPUT:
 ![image](https://github.com/user-attachments/assets/d2acd4bc-6195-4b80-a116-e8717cb9d6fe)
 
 
-4:1 MUX Behavioral Implementation
+4:1 MUX Behavioral Implementation:
 
 // mux4_to_1_behavioral.v
 ~~~
@@ -154,7 +154,7 @@ OUTPUT:
 
 ![image](https://github.com/user-attachments/assets/e898da3a-02d8-48cf-ae2d-00bb23711e78)
 
-4:1 MUX Structural Implementation
+4:1 MUX Structural Implementation:
 
 // mux2_to_1.v
 ~~~
@@ -193,7 +193,7 @@ OUTPUT:
 
 ![image](https://github.com/user-attachments/assets/211a7509-db75-4119-98b1-be031a32d4ba)
 
-Testbench Implementation
+Testbench Implementation:
 
 // mux4_to_1_tb.v
 `timescale 1ns / 1ps
@@ -288,7 +288,7 @@ OUTPUT:
 ![image](https://github.com/user-attachments/assets/dbea6ea5-9101-42f4-a081-b40143321193)
 
 
-Sample Output
+Sample Output:
 
 Time=0 | S1=0 S0=0 | Inputs: A=0 B=0 C=0 D=0 | Y_gate=0 | Y_dataflow=0 | Y_behavioral=0 | Y_structural=0
 Time=10 | S1=0 S0=0 | Inputs: A=0 B=0 C=0 D=0 | Y_gate=0 | Y_dataflow=0 | Y_behavioral=0 | Y_structural=0
