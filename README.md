@@ -89,6 +89,9 @@ module mux4_to_1_gate (
     // OR gate to combine all AND gate outputs
     or (Y, A_and, B_and, C_and, D_and);
 endmodule
+OUTPUT:
+
+![WhatsApp Image 2024-11-21 at 14 11 06_da525909](https://github.com/user-attachments/assets/68dfd460-2886-4f66-92bd-ef9dc349f4eb)
 
 4:1 MUX Data Flow Implementation
 
@@ -107,6 +110,10 @@ module mux4_to_1_dataflow (
                (S1 & ~S0 & C) |
                (S1 & S0 & D);
 endmodule
+OUTPUT:
+
+![image](https://github.com/user-attachments/assets/d2acd4bc-6195-4b80-a116-e8717cb9d6fe)
+
 
 4:1 MUX Behavioral Implementation
 
@@ -130,6 +137,9 @@ module mux4_to_1_behavioral (
         endcase
     end
 endmodule
+OUTPUT:
+
+![image](https://github.com/user-attachments/assets/e898da3a-02d8-48cf-ae2d-00bb23711e78)
 
 4:1 MUX Structural Implementation
 
@@ -163,6 +173,8 @@ module mux4_to_1_structural (
     // Instantiate the final 2:1 MUX
     mux2_to_1 mux_final (.A(mux_low), .B(mux_high), .S(S1), .Y(Y));
 endmodule
+OUTPUT:
+![image](https://github.com/user-attachments/assets/211a7509-db75-4119-98b1-be031a32d4ba)
 
 Testbench Implementation
 
@@ -252,6 +264,8 @@ module mux4_to_1_tb;
                  $time, S1, S0, A, B, C, D, Y_gate, Y_dataflow, Y_behavioral, Y_structural);
     end
 endmodule
+OUTPUT:
+![image](https://github.com/user-attachments/assets/dbea6ea5-9101-42f4-a081-b40143321193)
 
 
 Sample Output
