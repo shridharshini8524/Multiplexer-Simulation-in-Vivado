@@ -1,6 +1,4 @@
-SIMULATION AND IMPLEMENTATION OF LOGIC GATES
-
-
+                                                        SIMULATION AND IMPLEMENTATION OF LOGIC GATES
 
 AIM:
 
