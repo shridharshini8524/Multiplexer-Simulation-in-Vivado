@@ -1,4 +1,4 @@
-                           SIMULATION AND IMPLEMENTATION OF LOGIC GATES
+               SIMULATION AND IMPLEMENTATION OF LOGIC GATES
 
 AIM:
 
@@ -9,7 +9,6 @@ APPARATUS REQUIRED:
 Vivado 2023.1
 
 PROCEDURE:
-
 
 1. Launch Vivado
 Open Vivado 2023.1 by double-clicking the Vivado icon or searching for it in the Start menu.
